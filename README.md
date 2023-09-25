@@ -1,7 +1,7 @@
-# IPACProject
+# Recording the Brain's Response to Sugar
 
 ## Project Description
-Contains MATLAB, Arduino, and Bonsai code used to collect and analyze data published in "Neurotensin neurons in the extended amygdala control dietary choice and energy homeostasis," 2022 from Furlan et. al.
+This project was created to record real-time brain activity in mice and link it to consumption of sugar and other stimuli. Contains MATLAB, Arduino, and Bonsai code used to collect and analyze data published in "Neurotensin neurons in the extended amygdala control dietary choice and energy homeostasis," 2022 from Furlan et. al.
 
 Analysis package for the 2-spout delivery task, a task designed together with Alessandro Furlan and implemented by Sara Boyle. In this task, 2 different liquids are loaded and calibrated for delivery to a mouse. When a trial starts, a droplet of one of the liquids is randomly dispensed to sit at the end of a spout. The mouse can then freely approach and drink the fluid. When the mouse licks the spouts, it closes a simple circuit, allowing the Bpod to register the timing of the individual spout licks, and triggering the next trial. This analysis package uses the timing data from the Bpod and photometry data from the Neurofiberphotometrics photometry system to analyze photometry responses from mice to different types and volumes of liquid stimuli. It includes built in bleaching correction and many customizable parameters.
 <p align="center">
